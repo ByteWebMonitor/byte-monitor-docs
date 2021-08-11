@@ -1,0 +1,20 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --port 9000",
+    "build": "vitepress build docs",
+    "deploy": "vitepress build docs && fun deploy -y",
+    "docs:serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
+    "markdown-it": "^12.1.0",
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-latex": "^0.2.0",
+    "markdown-it-toc": "^1.1.0",
+    "vitepress": "^0.13.2"
+  }
+}

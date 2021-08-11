@@ -41,7 +41,7 @@ module.exports = {
     repo: 'ByteWebMonitor/byte-monitor-docs',
     docsDir: 'docs',
     editLinks: true,
-    docsBranch: 'main',
+    docsBranch: 'master',
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
 

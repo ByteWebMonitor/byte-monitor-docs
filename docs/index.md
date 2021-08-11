@@ -22,7 +22,7 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 - 熟悉JSSDK封装
 - 熟悉vue-admin-element(如果选Ant Design Pro能独立扛起大旗)
-- 熟悉Flask(如果选koa、egg的化希望能独立扛起大旗)
+- 熟悉Flask(如果选koa、egg的话希望能独立扛起大旗)
 
 ## 整体规划
 

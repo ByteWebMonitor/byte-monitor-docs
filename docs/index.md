@@ -21,12 +21,13 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 ## 突出亮点
 
-经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控系统，共沉淀**2**NPM包，**3**份规范文档，**5**个Github的仓库
+经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控系统，共沉淀**1**个后台admin系统，**2**NPM包，**3**份规范文档，**5**个Github的仓库
 
+### 1个后台系统
 
+![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210815221657.png)
 
 ### 2个NPM包
-
 
 
 | NPM包名称                 | NPM地址                                                 |

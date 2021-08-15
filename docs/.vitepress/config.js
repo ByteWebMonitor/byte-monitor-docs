@@ -1,110 +1,113 @@
 module.exports = {
-  lang: 'Zh',
-  title: 'ByteWebMonitor',
-  description: '闻星',
-  // markdown: {
-  //   // options for markdown-it-anchor
-  //   // anchor: { permalink: false },
+    title: "ByteWebMonitor",
+    description: "闻星",
+    themeConfig: {
+        repo: "ByteWebMonitor/byte-monitor-docs",
+        docsDir: "docs",
+        editLinks: true,
+        docsBranch: "master",
+        locales: {
+            //中文
+            "/": {
+                lang: "zh-CN",
+                // 编辑链接文字
+                editLinkText: "在 GitHub 上编辑此页",
+                // 更新时间文字
+                lastUpdated: "最后更新于",
+                // 多语言下拉菜单的标题
+                selectText: "选择语言",
+                // 该语言在下拉菜单中的标签
+                label: "简体中文",
 
-  //   // options for markdown-it-toc
+                // 文档搜索插件
+                // algolia: {
+                //     apiKey: 'c57105e511faa5558547599f120ceeba',
+                //     indexName: '古月闻星'
+                // },
 
-  //   config: (md) => {
-  //     // use more markdown-it plugins!
-  //     md.use(require('markdown-it'))
-  //     md.use(require('markdown-it-latex').default)
-  //     md.use(require('markdown-it-katex'))
-  //     md.use(require('markdown-it-toc'))
+                nav: nav_generator(),
+                sidebar: {
+                    "/byte-monitor-jssdk/": byte_monitor_jssdk(),
+                    "/byte-monitor-server-api/": byte_monitor_server_api(),
+                    "/byte-monitor-admin/": byte_monitor_admin(),
+                },
+            },
+            //English
+            "/en/": {
+                lang: "en-US",
+                // 编辑链接文字
+                editLinkText: "Edit this page on GitHub",
+                // 更新时间文字
+                lastUpdated: "Last Updated",
+                // 多语言下拉菜单的标题
+                selectText: "Language",
+                // 该语言在下拉菜单中的标签
+                label: "English",
+                nav: nav_generator("en/"),
+                sidebar: {
+                    "/en/byte-monitor-jssdk/": byte_monitor_jssdk("en/"),
+                    "/en/byte-monitor-server-api/": byte_monitor_server_api("en/"),
+                    "/en/byte-monitor-admin/": byte_monitor_admin("en/"),
+                },
+            },
+        },
+    },
+};
 
-  //     const originalRender = md.render
-  //     const REG_MATH_MUSTACHE_TAG = /<span class="katex">/g
-  //     const replacer = '<span v-pre class="katex">'
-  //     md.render = function () {
-  //       return originalRender
-  //         .apply(this, arguments)
-  //         .replace(REG_MATH_MUSTACHE_TAG, replacer)
-  //     }
-
-
-  //   // md.use(require('@iktakahiro/markdown-it-katex'))
-  //   // md.render = function () {
-  //   //     return md
-  //   //         .render
-  //   //         .apply(this, arguments)
-  //   //         .replace(/<span class="katex">/g, '<span v-pre class="katex">')
-  //   // }
-
-  //   },
-  //   toc: { includeLevel: [1,2,3,4,5] }
-
-  // },
-  themeConfig: {
-    repo: 'ByteWebMonitor/byte-monitor-docs',
-    docsDir: 'docs',
-    editLinks: true,
-    docsBranch: 'master',
-    editLinkText: 'Edit this page on GitHub',
-    lastUpdated: 'Last Updated',
-
-    // algolia: {
-    //   apiKey: 'c57105e511faa5558547599f120ceeba',
-    //   indexName: '古月闻星'
-    // },
-    nav: [
-      { text: '主页', link: '/' },
-      {
-        text: 'byte-monitor-jssdk',
-        link: '/byte-monitor-jssdk/index',
-        activeMatch: '^/byte-monitor-jssdk/'
-      },
-      {
-        text: 'byte-monitor-server-api',
-        link: 'byte-monitor-server-api/index'
-      },      
-      {
-        text: 'byte-monitor-admin',
-        link: 'byte-monitor-admin/index'
-      },
-      {
-        text: 'organization',
-        link: 'https://github.com/ByteWebMonitor'
-      }
-    ],
-    sidebar: {
-      '/byte-monitor-jssdk/': byte_monitor_jssdk(),
-      '/byte-monitor-server-api/': byte_monitor_server_api(),
-      '/byte-monitor-admin/': byte_monitor_admin()
-    }
-  }
+function nav_generator(Language) {
+    if (!Language) Language = ""; //转化无传入参数undefined的情况
+    return [
+        { text: Language.length > 0 ? "home" : "首页", link: "/" },
+        {
+            text: "byte-monitor-jssdk",
+            link: `${Language}byte-monitor-jssdk/test`, //这里用index路径进入文档，不会根据标题等级自动生成侧边栏列表
+            activeMatch: `^/${Language}byte-monitor-jssdk/`,
+        },
+        {
+            text: "byte-monitor-server-api",
+            link: `/${Language}byte-monitor-server-api/index`,
+        },
+        {
+            text: "byte-monitor-admin",
+            link: `/${Language}byte-monitor-admin/index`,
+        },
+        {
+            text: "organization",
+            link: "https://github.com/ByteWebMonitor",
+        },
+    ];
 }
 
-function byte_monitor_jssdk() {
-  return [
-    {
-      text: '前端监控调研',
-      children: [
-        { text: '调研', link: '/byte-monitor-jssdk/survey' }
-    ]
-    }
-  ]
+function byte_monitor_jssdk(Language) {
+    if (!Language) Language = ""; //转化无传入参数undefined的情况
+    return [{
+        text: Language.length > 0 ? "First Layer" : "第一层",
+
+        //侧边栏子页生成，同时根据文件内容自动生成子页列表
+        children: [{
+                text: Language.length > 0 ? "Child1" : "子1",
+                link: `/${Language}byte-monitor-jssdk/test`,
+            },
+            {
+                text: Language.length > 0 ? "Child2" : "子2",
+                link: `/${Language}byte-monitor-jssdk/survey`,
+            },
+        ],
+    }, ];
 }
 
 function byte_monitor_server_api() {
-  return [
-    {
-      text: '技术选型',
-      children: [
-        { text: '', link: '/weekly/20210808' }
-    ]
-    }
-  ]
+    //暂时没改，根据实际情况再进行改动
+    return [{
+        text: "技术选型",
+        children: [{ text: "test", link: "/weekly/20210808" }],
+    }, ];
 }
+
 function byte_monitor_admin() {
-  return [
-    {
-      text: 'byte_monitor_admin',
-      children: [
-        { text: '', link: '/weekly/20210808' }
-    ]
-    }
-  ]
+    //暂时没改，根据实际情况再进行改动
+    return [{
+        text: "byte_monitor_admin",
+        children: [{ text: "test", link: "/weekly/20210808" }],
+    }, ];
 }

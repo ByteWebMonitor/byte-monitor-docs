@@ -33,7 +33,7 @@ module.exports = {
                 },
             },
             //English
-            "/en": {
+            "/en/": {
                 lang: "en-US",
                 // 编辑链接文字
                 editLinkText: "Edit this page on GitHub",

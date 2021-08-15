@@ -16,13 +16,24 @@ features:
     
 footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 ---
-## 寻找小伙伴
+## 
 
-笔者比较熟悉Vue生态
+## 突出亮点
 
-- 熟悉JSSDK封装
-- 熟悉vue-admin-element(如果选Ant Design Pro能独立扛起大旗)
-- 熟悉Flask(如果选koa、egg的话希望能独立扛起大旗)
+经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控系统，共沉淀**2**NPM包，**3**份规范文档，**5**个Github的仓库
+
+
+
+### 2个NPM包
+
+
+
+| NPM包名称                 | NPM地址                                                 |
+| ------------------------- | ------------------------------------------------------- |
+| byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        |
+| byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot |
+
+
 
 ## 整体规划
 
@@ -39,3 +50,4 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 加油~
 
 :::
+

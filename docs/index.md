@@ -15,9 +15,14 @@ features:
     details: 字节前端监控后台管理员系统（Antd、Element构建都可以）
     
 footer: MIT Licensed | Copyright © 2021-present Vansin Hu
+
 ---
 
-![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/structure1.png)
+<div align=center>
+<img src="https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210817115402.png"/>
+</div>
+
+
 
 ## 突出亮点
 

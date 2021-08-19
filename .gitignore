@@ -1,12 +1,10 @@
 # Logs
-
 node_modules
 docs/.vitepress/dist
-.env
 .fun
 __pycache__
 
-
+.idea
 logs
 *.log
 npm-debug.log*

@@ -27,7 +27,7 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 ## 突出亮点
 
-​		在mini版现代前端研发体系下，经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控系统，共沉淀**1**个后台admin系统，**2**NPM包，**3**份规范文档，**5**个Github的仓库
+​		在mini版现代前端研发体系下，经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控系统，共沉淀**1**个后台admin系统，**3**NPM包，**3**份规范文档，**5**个Github的仓库
 
 ### 1个后台系统
 
@@ -35,13 +35,14 @@ http://byte-monitor-admin.vansin.top/
 
 ![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210815221657.png)
 
-### 2个NPM包
+### 3个NPM包
 
 
 | NPM包名称                 | NPM地址                                                 |
 | ------------------------- | ------------------------------------------------------- |
 | byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        |
 | byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot |
+| byte-vitepress-cli        | https://www.npmjs.com/package/byte-vitepress-cli        |
 
 
 

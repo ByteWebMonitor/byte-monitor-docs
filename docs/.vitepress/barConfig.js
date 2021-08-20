@@ -64,7 +64,7 @@ function byte_monitor_jssdk(Language = "en/") {
 function byte_monitor_server_api(Language = "en/") {
     let basePath = `/${Language}byte-monitor-server-api`
     return [{
-        text: Language ? "API" : "啊皮埃",
+        text: Language ? "API" : "指南",
         children: [{
             text: Language ? "Introduction" : "介绍",
             link: `${basePath}/introduction`,

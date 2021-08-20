@@ -31,7 +31,7 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 ### 1个后台系统
 
-http://byte-monitor-admin.vansin.top/
+https://byte-monitor-admin.web.cloudendpoint.cn/
 
 ![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210815221657.png)
 

@@ -65,10 +65,16 @@ function byte_monitor_server_api(Language = "en/") {
     let basePath = `/${Language}byte-monitor-server-api`
     return [{
         text: Language ? "API" : "指南",
-        children: [{
+        children: [
+            {
             text: Language ? "Introduction" : "介绍",
             link: `${basePath}/introduction`,
-        }]
+        },
+        {
+            text: Language ? "API" : "API",
+            link: `${basePath}/api`,
+        },
+    ]
     }];
 }
 

@@ -8,11 +8,11 @@ actionText: 了解更多
 actionLink: /byte-monitor-jssdk/
 features:
   - title: byte-monitor-jssdk
-    details: 开箱即用的前端监控JSSDK(核心工作优先完成)
+    details: 无侵入式的前端监控工具，轻松监控页面异常、用户性能数据以及设备数据
   - title: byte-monitor-server-api
-    details: 字节前端监控系统后端API
+    details: 基于KOA构建，部署于字节轻服务serverless，弹性扩容
   - title: byte-monitor-admin
-    details: 字节前端监控后台管理员系统（Antd、Element构建都可以）
+    details: 基于antd
     
 footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
@@ -21,8 +21,6 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 <div align=center>
 <img src="https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/structure4.png"/>
 </div>
-
-
 
 
 
@@ -39,11 +37,11 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 ### 3个NPM包
 
 
-| NPM包名称                 | NPM地址                                                 |
-| ------------------------- | ------------------------------------------------------- |
-| byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        |
-| byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot |
-| byte-vitepress-cli        | https://www.npmjs.com/package/byte-vitepress-cli        |
+| NPM包名称                 | NPM地址                                                 | 参与同学 |
+| ------------------------- | ------------------------------------------------------- | -------- |
+| byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        | 周 侯 胡 |
+| byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot | 侯 胡    |
+| byte-vitepress-cli        | https://www.npmjs.com/package/byte-vitepress-cli        | 杨 胡    |
 
 
 

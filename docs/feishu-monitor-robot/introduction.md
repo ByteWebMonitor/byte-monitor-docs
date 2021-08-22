@@ -3,9 +3,6 @@
 * node: 10.18.0以上
 * npm: 6.13.4以上
  
-## 链接
-[Github仓库源码](https://github.com/ByteWebMonitor/byte-monitor-feishu-robot/tree/master)
-
 ## 安装
 ```bash
 $ npm i byte-monitor-feishu-robot

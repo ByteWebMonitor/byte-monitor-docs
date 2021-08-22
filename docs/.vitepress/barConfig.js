@@ -18,11 +18,21 @@ function nav_generator(Language = "en/") {
       link: `/${Language}byte-monitor-admin/introduction`,
     },
     {
-      text: "byte-vitepress-cli",
-      link: `/${Language}byte-vitepress-cli/introduction`,
+      text: Language ? "More" : "更多",
+      items: [
+        {
+          text: "byte-vitepress-cli",
+          link: `/${Language}byte-vitepress-cli/introduction`,
+        },
+        {
+          text: "feishu-monitor-robot",
+          link: `/${Language}feishu-monitor-robot/introduction`,
+        }, 
+      ],
     },
+
     {
-      text: "organization",
+      text: Language ? "Organization" : "组织",
       link: "https://github.com/ByteWebMonitor",
     },
   ];
@@ -124,10 +134,30 @@ function byte_vitepress_cli(Language = "en/") {
     },
   ];
 }
+
+/**
+ * 获取中英文状态下的admin文档侧边栏
+ * @param Language 传入语言
+ */
+function feishu_monitor_robot(Language = "en/") {
+  let basePath = `/${Language}feishu-monitor-robot`;
+  return [
+    {
+      text: Language ? "Robot" : "机器人",
+      children: [
+        {
+          text: Language ? "Introduction" : "介绍",
+          link: `${basePath}/introduction`,
+        },
+      ],
+    },
+  ];
+}
 module.exports = {
   nav_generator,
   byte_monitor_jssdk,
   byte_monitor_server_api,
   byte_monitor_admin,
   byte_vitepress_cli,
+  feishu_monitor_robot
 };

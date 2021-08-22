@@ -4,6 +4,7 @@ const {
   byte_monitor_server_api,
   byte_monitor_admin,
   byte_vitepress_cli,
+  feishu_monitor_robot,
 } = require("./barConfig");
 module.exports = {
   title: "ByteWebMonitor",
@@ -31,6 +32,7 @@ module.exports = {
           "/byte-monitor-server-api/": byte_monitor_server_api((Language = "")),
           "/byte-monitor-admin/": byte_monitor_admin((Language = "")),
           "/byte-vitepress-cli/": byte_vitepress_cli((Language = "")),
+          "/feishu-monitor-robot/": feishu_monitor_robot((Language = "")),
         },
       },
       //English
@@ -50,6 +52,7 @@ module.exports = {
           "/en/byte-monitor-server-api/": byte_monitor_server_api(),
           "/en/byte-monitor-admin/": byte_monitor_admin(),
           "/en/byte-vitepress-cli/": byte_vitepress_cli(),
+          "/en/feishu-monitor-robot/": feishu_monitor_robot(),
         },
       },
     },

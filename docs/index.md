@@ -1,5 +1,5 @@
 ---
-home: true
+侯智聪home: true
 heroImage: /img/byte.png
 heroAlt: Logo image
 heroText: 字节前端监控系统
@@ -13,7 +13,13 @@ features:
     details: 基于KOA构建，部署于字节轻服务serverless，弹性扩容
   - title: byte-monitor-admin
     details: 基于antd
-    
+  - title: byte-monitor-feishu-robot
+    details: 即开即用的飞书群机器人npm包
+  - title: byte-vitepress-cli
+    details: 轻量级vitepress文档脚手架
+  - title: CI/CD
+    details: 基于GIthub Action和轻服务的现代化自动部署
+
 footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 ---
@@ -37,11 +43,30 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 ### 3个NPM包
 
 
-| NPM包名称                                                    | NPM地址                                                 | 参与同学 |
-| ------------------------------------------------------------ | ------------------------------------------------------- | -------- |
-| byte-monitor-jssdk                                           | https://www.npmjs.com/package/byte-monitor-jssdk        | 周 侯 胡 |
-| byte-monitor-feishu-robot                                    | https://www.npmjs.com/package/byte-monitor-feishu-robot | 侯 胡    |
-| [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | https://www.npmjs.com/package/byte-vitepress-cli        | 杨 胡    |
+| NPM包名称                                                    | NPM地址                                                 | 参与同学     |
+| ------------------------------------------------------------ | ------------------------------------------------------- | ------------ |
+| byte-monitor-jssdk                                           | https://www.npmjs.com/package/byte-monitor-jssdk        | 周方旭 侯 胡 |
+| byte-monitor-feishu-robot                                    | https://www.npmjs.com/package/byte-monitor-feishu-robot | 侯 胡        |
+| [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | https://www.npmjs.com/package/byte-vitepress-cli        | 杨 胡        |
+
+
+
+
+
+## 团队沉淀文章
+
+
+
+## 答辩汇报
+
+| 工作                                                         | 参与同学             |
+| ------------------------------------------------------------ | -------------------- |
+| [byte-monitor-jssdk](https://www.npmjs.com/package/byte-monitor-jssdk) | 周方旭 侯智聪 胡文兴 |
+| [byte-monitor-server-api](https://github.com/ByteWebMonitor/byte-monitor-server-api) | 胡文兴  张玳铭       |
+| [byte-monitor-admin](https://byte-monitor-admin.web.cloudendpoint.cn/) | 张玳铭 侯智聪 黄显瑜 |
+| [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | 杨嘉兴 胡文兴        |
+| [byte-monitor-feishu-robot](https://www.npmjs.com/package/byte-monitor-feishu-robot) | 侯智聪 胡文兴        |
+| byte-monitor-bot                                             | 陈池轩 侯智聪        |
 
 
 

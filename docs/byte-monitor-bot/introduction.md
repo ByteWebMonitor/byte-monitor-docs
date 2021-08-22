@@ -12,8 +12,8 @@
 
 ### 组内仓库push动态推送
 
-![](https://pan.ponder.fun/api/v3/share/preview/PjUz)
 ![](https://s3.bmp.ovh/imgs/2021/08/ac2e2c2c7033b584.png)
+
 在发生push事件后，机器人会展示该push的发起人、所在仓库、所在分支，并附加该push内所含的所有Commit内容，可以直接点击相应的Commit超链接前往对应的Commit页面。
 
 
@@ -21,4 +21,5 @@
 ### 组内仓库其他动态推送
 
 ![](https://s3.bmp.ovh/imgs/2021/08/6a908bee7ac4d4e9.png)
+
 在发生其他事件后，机器人会展示该事件类型、发起人、所在仓库，可以直接点击附加的超链接前往对应的仓库查看详情。

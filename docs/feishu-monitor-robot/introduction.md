@@ -56,4 +56,3 @@ const Rebot = require('byte-monitor-feishu-robot/index')({ webhook });
 ## 尾言
 欢迎大家给个小⭐嗷
 ## License
-[MIT](LICENSE)

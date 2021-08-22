@@ -27,7 +27,11 @@ function nav_generator(Language = "en/") {
         {
           text: "feishu-monitor-robot",
           link: `/${Language}feishu-monitor-robot/introduction`,
-        }, 
+        },
+        {
+          text: "byte-monitor-bot",
+          link: `/${Language}byte-monitor-bot/introduction`,
+        },
       ],
     },
 
@@ -153,11 +157,31 @@ function feishu_monitor_robot(Language = "en/") {
     },
   ];
 }
+
+/**
+ * 获取中英文状态下的admin文档侧边栏
+ * @param Language 传入语言
+ */
+function byte_monitor_bot(Language = "en/") {
+  let basePath = `/${Language}byte-monitor-bot`;
+  return [
+    {
+      text: Language ? "Bot" : "自动推送",
+      children: [
+        {
+          text: Language ? "Introduction" : "介绍",
+          link: `${basePath}/introduction`,
+        },
+      ],
+    },
+  ];
+}
 module.exports = {
   nav_generator,
   byte_monitor_jssdk,
   byte_monitor_server_api,
   byte_monitor_admin,
   byte_vitepress_cli,
-  feishu_monitor_robot
+  feishu_monitor_robot,
+  byte_monitor_bot,
 };

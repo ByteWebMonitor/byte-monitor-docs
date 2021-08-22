@@ -32,16 +32,16 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 https://byte-monitor-admin.web.cloudendpoint.cn/
 
-![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210815221657.png)
+![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210822143140.png)
 
 ### 3个NPM包
 
 
-| NPM包名称                 | NPM地址                                                 | 参与同学 |
-| ------------------------- | ------------------------------------------------------- | -------- |
-| byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        | 周 侯 胡 |
-| byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot | 侯 胡    |
-| byte-vitepress-cli        | https://www.npmjs.com/package/byte-vitepress-cli        | 杨 胡    |
+| NPM包名称                                                    | NPM地址                                                 | 参与同学 |
+| ------------------------------------------------------------ | ------------------------------------------------------- | -------- |
+| byte-monitor-jssdk                                           | https://www.npmjs.com/package/byte-monitor-jssdk        | 周 侯 胡 |
+| byte-monitor-feishu-robot                                    | https://www.npmjs.com/package/byte-monitor-feishu-robot | 侯 胡    |
+| [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | https://www.npmjs.com/package/byte-vitepress-cli        | 杨 胡    |
 
 
 

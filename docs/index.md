@@ -42,6 +42,8 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 
 ![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210822143140.png)
 
+![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210823124123.png)
+
 ### 3个NPM包
 
 

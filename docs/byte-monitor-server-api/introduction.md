@@ -1,6 +1,6 @@
 # 字节前端监控API
 
-## 介绍
+
 
 https://github.com/ByteWebMonitor/byte-monitor-server-api
 
@@ -17,3 +17,7 @@ https://dbdocs.io/vansin/byte_web_monitor
 使用Apifox进行接口管理与协作
 
 ![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210822203502.png)
+
+## 难点汇总
+
+- 根据日期聚合

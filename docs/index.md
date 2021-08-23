@@ -1,5 +1,5 @@
 ---
-侯智聪home: true
+home: true
 heroImage: /img/byte.png
 heroAlt: Logo image
 heroText: 字节前端监控系统
@@ -25,8 +25,9 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 ---
 
 <div align=center>
-<img src="https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/structure4.png"/>
+<img src="https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210823121914.png"/>
 </div>
+
 
 
 

@@ -18,7 +18,7 @@ features:
   - title: byte-vitepress-cli
     details: 轻量级vitepress文档脚手架
   - title: CI/CD
-    details: 基于GIthub Action和轻服务的现代化自动部署
+    details: 基于GIthub Action和轻服务的现代化自动化部署
 
 footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 

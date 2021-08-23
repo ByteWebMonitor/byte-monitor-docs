@@ -12,7 +12,7 @@ features:
   - title: byte-monitor-server-api
     details: 基于KOA构建，部署于字节轻服务serverless，弹性扩容
   - title: byte-monitor-admin
-    details: 基于antd
+    details: 简单易用的前端监控可视化管理员平台
   - title: byte-monitor-feishu-robot
     details: 即开即用的飞书群机器人npm包
   - title: byte-vitepress-cli

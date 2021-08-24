@@ -101,7 +101,7 @@ $ byte-vitepress-cli deploy
 You can also set the template mirror like this:
 
 ```
-$ byte-vitepress-cli mirror https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/template/
+$ byte-vitepress-cli mirror https://cdn.vansin.top/template/
 ```
 
 **NOTE**  
@@ -110,3 +110,4 @@ For example, the full link to your custom template mirror is `https://example.co
 
 You can download the VitePress template from [byte-vitepress-cli](https://github.com/YoungX99/byte-vitepress-cli). 
 
+Or can be used to `mirror` command again, the original mirror address is: https://cdn.vansin.top/template/

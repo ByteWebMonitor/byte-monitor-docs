@@ -100,13 +100,15 @@ $ byte-vitepress-cli deploy
 你可以替换模板的下载位置如下指令：
 
 ```
-$ byte-vitepress-cli mirror https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/template/
+$ byte-vitepress-cli mirror https://cdn.vansin.top/template/
 ```
 
 **注意**  
-你可以自己定制模板的镜像下载地址，但请确保该地址下拥有两种模板，模板的名字必须是 `template.zip` 或 `template-en.zip`, 并且镜像链接应以 `/` 结尾，否则将会出现模板下载的情况。  
+你可以自己定制模板的镜像下载地址，但请确保该地址下拥有两种模板，模板的名字必须是 `template.zip` 或 `template-en.zip`, 并且镜像链接应以 `/` 结尾，否则将会出现模板下载出错的情况。  
 举个例子，你的镜像地址为 `https://example.com/mirror/template.zip` 或 `https://example.com/mirror/template-en.zip`。
 镜像配置的时候应当输入 `https://example.com/mirror/`  
 
-当你修改了镜像后，最初的模板也会随之删除，若你仍需要最初的模板，你可以到如下链接中下载：[byte-vitepress-cli](https://github.com/YoungX99/byte-vitepress-cli). 
+当你修改了镜像后，最初的模板也会随之删除，若你仍需要最初的模板，你可以到如下链接中下载：[byte-vitepress-cli](https://github.com/YoungX99/byte-vitepress-cli)
+
+也可以重新使用`mirror`指令配置镜像，原镜像地址为：https://cdn.vansin.top/template/
 

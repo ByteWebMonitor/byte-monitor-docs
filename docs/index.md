@@ -3,7 +3,7 @@ home: true
 heroImage: /img/byte.png
 heroAlt: Logo image
 heroText: 字节前端监控系统
-tagline:  前端性能监控一站式解决方案（字节第一节前端青训营第1名）
+tagline:  前端性能监控一站式解决方案（字节第一届前端青训营第1名）
 actionText: 了解更多
 actionLink: /byte-monitor-jssdk/
 features:

@@ -49,11 +49,11 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 ### 3个NPM包
 
 
-| NPM包名称                                                    | NPM地址                                                 |
-| ------------------------------------------------------------ | ------------------------------------------------------- |
-| byte-monitor-jssdk                                           | https://www.npmjs.com/package/byte-monitor-jssdk        |
-| byte-monitor-feishu-robot                                    | https://www.npmjs.com/package/byte-monitor-feishu-robot |
-| [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | https://www.npmjs.com/package/byte-vitepress-cli        |
+| NPM包名称                 | NPM地址                                                 |
+| ------------------------- | ------------------------------------------------------- |
+| byte-monitor-jssdk        | https://www.npmjs.com/package/byte-monitor-jssdk        |
+| byte-monitor-feishu-robot | https://www.npmjs.com/package/byte-monitor-feishu-robot |
+| byte-vitepress-cli        | https://www.npmjs.com/package/byte-vitepress-cli        |
 
 
 

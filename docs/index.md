@@ -3,7 +3,7 @@ home: true
 heroImage: /img/byte.png
 heroAlt: Logo image
 heroText: 字节前端监控系统
-tagline:  前端性能监控一站式解决方案
+tagline:  前端性能监控一站式解决方案（字节第一节前端青训营第1名）
 actionText: 了解更多
 actionLink: /byte-monitor-jssdk/
 features:
@@ -34,7 +34,9 @@ footer: MIT Licensed | Copyright © 2021-present Vansin Hu
 
 ## 突出亮点
 
-​		在mini版现代前端研发体系下，经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控一站式解决方案，共沉淀**1**个后台admin系统，**3**NPM包，**3**份规范文档，**5**个Github的仓库
+​		在mini版现代前端研发体系下，经过团队一周的努力，我们设计并落地了ByteWebMonitor字节前端监控一站式解决方案，共沉淀**1**个后台admin系统，**3**NPM包，**3**份规范文档，**6**个Github的仓库
+
+![](https://moonstarimg.oss-cn-hangzhou.aliyuncs.com/picgo_img/20210824095716.png)
 
 ### 1个后台系统
 
@@ -55,16 +57,7 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 
 
 
-### mini版现代化研发体系
-
-- GIt团队协作开发
-- Pull Request代码review提高代码质量
-- Github Webhooks触发飞书机器人通知代码更改
-- Github Actions触发轻服务自动化部署
-
-
-
-## 团队分工
+### 6个Github仓库
 
 |                                                              | 参与同学             |
 | ------------------------------------------------------------ | -------------------- |
@@ -72,8 +65,15 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 | [byte-monitor-server-api](https://github.com/ByteWebMonitor/byte-monitor-server-api) | 胡文兴  张玳铭       |
 | [byte-monitor-admin](https://byte-monitor-admin.web.cloudendpoint.cn/) | 张玳铭 侯智聪 黄显瑜 |
 | [byte-vitepress-cli](https://byte-web-docs.web.cloudendpoint.cn/) | 杨嘉兴 胡文兴        |
-| [byte-monitor-feishu-robot](https://www.npmjs.com/package/byte-monitor-feishu-robot) | 侯智聪 胡文兴        |
-| byte-monitor-bot                                             | 陈池轩 侯智聪        |
+| [byte-monitor-feishu-robot](https://www.npmjs.com/package/byte-monitor-feishu-robot) | 侯智聪 陈池轩 胡文兴 |
+| [byte-monitor-docs](https://github.com/ByteWebMonitor/byte-monitor-docs) | 全体                 |
+
+### mini版现代化研发体系
+
+- GIt团队协作开发
+- Pull Request代码review提高代码质量
+- Github Webhooks触发飞书机器人通知代码更改
+- Github Actions触发轻服务自动化部署
 
 
 

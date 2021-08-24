@@ -59,22 +59,9 @@ function byte_monitor_jssdk(Language = "en/") {
           text: Language ? "Introduction" : "介绍",
           link: `${basePath}/introduction`,
         },
-        {
-          text: Language ? "Survey" : "调研",
-          link: `${basePath}/survey`,
-        },
       ],
     },
-    //第二层级
-    {
-      text: Language ? "Insight" : "深入",
-      children: [
-        {
-          text: Language ? "Second Layer" : "第二层配置",
-          link: `/${Language}byte-monitor-jssdk/second`,
-        },
-      ],
-    },
+
   ];
 }
 

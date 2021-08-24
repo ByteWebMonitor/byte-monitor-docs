@@ -87,7 +87,8 @@ https://byte-monitor-admin.web.cloudendpoint.cn/
 | 8月23日       | 评审               |                  |
 
 ::: warning WARNING
-此文档基于vitepress，并部署于阿里云serverless faas
+
+此文档基于vitepress，并部署于阿里云serverless FaaS
 
 :::
 
